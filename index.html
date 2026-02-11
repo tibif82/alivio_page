@@ -2,11 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
-		<meta
-			name="viewport"
-			content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
-		/>
-		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link
@@ -14,13 +10,40 @@
 			rel="stylesheet"
 		/>
 		<link rel="stylesheet" href="index.css" />
-		<link href="assets/favicon.png" rel="shortcut icon" type="image/png" />
+		<link rel="icon" href="assets/favicon.png" type="image/png" />
 		<title>Alivio</title>
 	</head>
 	<body>
-		<!-- width='81' height='24' -->
-		<svg>
-			<use href="assets/sprites.svg#logo-icon"></use>
-		</svg>
+		<header class="header" aria-label="Header">
+			<div class="container">
+				<div class="header__wrapper">
+					<svg class="logo" aria-label="Logo">
+						<use href="assets/sprites.svg#logo-icon"></use>
+					</svg>
+					<nav class="header__nav" aria-label="Navigation">
+						<ul class="header__nav-list" aria-label="Navigation">
+							<li class="header__nav-item">
+								<a class="header__nav-link" href="/">Why Alivio</a>
+							</li>
+							<li class="header__nav-item">
+								<a class="header__nav-link" href="/">Solutions</a>
+							</li>
+							<li class="header__nav-item">
+								<a class="header__nav-link" href="/">Community</a>
+							</li>
+							<li class="header__nav-item">
+								<a class="header__nav-link" href="/">Pricing</a>
+							</li>
+						</ul>
+					</nav>
+					<div class="header__actions">
+						<button class="btn btn--signin" type="button">Sign in</button>
+						<button class="btn" type="button">Start Trial</button>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main></main>
+		<footer></footer>
 	</body>
 </html>
