@@ -14,7 +14,7 @@
 		<title>Alivio</title>
 	</head>
 	<body>
-		<header class="header" aria-label="Header">
+		<header id="header-id" class="header" aria-label="Header">
 			<div class="container">
 				<div class="header__wrapper">
 					<svg class="logo" aria-label="Logo">
@@ -23,16 +23,16 @@
 					<nav class="header__nav" aria-label="Navigation">
 						<ul class="header__nav-list" aria-label="Navigation">
 							<li class="header__nav-item">
-								<a class="header__nav-link" href="/">Why Alivio</a>
+								<a class="header__nav-link" href="#about-id">Why Alivio</a>
 							</li>
 							<li class="header__nav-item">
-								<a class="header__nav-link" href="/">Solutions</a>
+								<a class="header__nav-link" href="#success-id">Solutions</a>
 							</li>
 							<li class="header__nav-item">
-								<a class="header__nav-link" href="/">Community</a>
+								<a class="header__nav-link" href="#product-id">Community</a>
 							</li>
 							<li class="header__nav-item">
-								<a class="header__nav-link" href="/">Pricing</a>
+								<a class="header__nav-link" href="#pricing-id">Pricing</a>
 							</li>
 						</ul>
 					</nav>
@@ -44,7 +44,7 @@
 			</div>
 		</header>
 		<main>
-			<section class="hero" aria-label="Hero section">
+			<section id="hero-id" class="hero" aria-label="Hero section">
 				<div class="container">
 					<div class="hero__content">
 						<h1 class="hero__title">Be aware, Manage well.</h1>
@@ -58,7 +58,7 @@
 				</div>
 			</section>
 
-			<section class="about" aria-label="About section">
+			<section id="about-id" class="about" aria-label="About section">
 				<div class="container">
 					<div class="about__content">
 						<h2 class="about__title">
@@ -115,7 +115,7 @@
 				</div>
 			</section>
 
-			<section class="success" aria-label="Success section">
+			<section id="success-id" class="success" aria-label="Success section">
 				<div class="container">
 					<div class="success__wrapper">
 						<div class="success__content">
@@ -137,7 +137,12 @@
 				</div>
 			</section>
 
-			<section class="product" aria-label="Product section" id="product-id">
+			<section
+				id="product-id"
+				class="product"
+				aria-label="Product section"
+				id="product-id"
+			>
 				<div class="container">
 					<div class="product__wrapper">
 						<div class="product__preview">
@@ -183,6 +188,28 @@
 				</div>
 			</section>
 		</main>
-		<footer></footer>
+		<footer id="pricing-id" class="pricing" aria-label="Pricing section">
+			<div class="container">
+				<div class="pricing__content">
+					<h2 class="pricing__title">Alivio</h2>
+					<nav class="pricing__nav" aria-label="Navigation">
+						<ul class="pricing__nav-list" aria-label="Navigation">
+							<li class="pricing__nav-item">
+								<a class="pricing__nav-link" href="#about-id">Why Alivio</a>
+							</li>
+							<li class="pricing__nav-item">
+								<a class="pricing__nav-link" href="#success-id">Solutions</a>
+							</li>
+							<li class="pricing__nav-item">
+								<a class="pricing__nav-link" href="#product-id">Community</a>
+							</li>
+							<li class="pricing__nav-item">
+								<a class="pricing__nav-link" href="#header-id">Pricing</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</footer>
 	</body>
 </html>
